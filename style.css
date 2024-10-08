@@ -1,0 +1,36 @@
+.cards-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.cards-container div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.cards-container img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    margin-top: 5px;
+}
+
+/* Styling for the discard pile */
+#discard-pile {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#discard-pile div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
